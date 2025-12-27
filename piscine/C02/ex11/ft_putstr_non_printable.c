@@ -14,7 +14,7 @@ void	ft_print_hex(unsigned char c)
 
 int	ft_is_printable(char c)
 {
-	return (c >= ' ' && c <= '~')
+	return (c >= ' ' && c <= '~');
 }
 
 void	ft_putstr_non_printable(char *str)
